@@ -19,10 +19,5 @@ class GuessingGame {
     }
 }
 
-const game = new GuessingGame
-game.setRange(0, 20)
-game.guess()
-game.lower()
-console.log(game);
 
 module.exports = GuessingGame;
